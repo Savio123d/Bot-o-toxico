@@ -1,14 +1,32 @@
-body{
-    text-align: center;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
 }
-
-.sim{
-    color: black;
+h1 {
+    margin-bottom: 20px;
+}
+.buttons {
+    position: relative;
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#yes {
     background-color: green;
-    border: 30px;
+    color: white;
 }
-.nao{
-    color: black;
+#no {
     background-color: red;
-
+    color: white;
+    position: absolute;
 }
