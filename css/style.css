@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+
+.sim{
+    color: black;
+    background-color: green;
+    border: 30px;
+}
+.nao{
+    color: black;
+    background-color: red;
+
+}
