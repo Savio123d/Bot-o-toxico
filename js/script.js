@@ -8,10 +8,9 @@ function activateMovement() {
 }
 
 function moveButton() {
-    if (!canMove) return;
     let button = document.getElementById('no');
     let x = Math.random() * (window.innerWidth - button.clientWidth);
     let y = Math.random() * (window.innerHeight - button.clientHeight);
-    button.style.left = `${x}px`;
-    button.style.top = `${y}px`;
+    button.style.left =  x + "px";
+    button.style.top = y + "px";
 }
